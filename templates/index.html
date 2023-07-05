@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Great Website</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-com web</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="static/script.js"></script>
+    <script src="static/products.js"></script>
 </head>
 <body>
-    <h1>Hello My Dear Friend!</h1>
+    <header>
+        <h1>My E-Com Website</h1>
+        <!-- Add navigation links here-->
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Welcome to our store!</h2>
+            <p>Discover amazing products at great prices.</p>
+        </section>
+        <section class="featured-products">
+            <!-- Placeholder for featured product cards -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My E-Commerce Website. All rights reserved.</p>
+    </footer>
+
+    <!-- <h1>Hello My Dear Friend!</h1>
     <h2>Congratulations! You did the main thing — took an action on your way to become a good man.</h2>
-    <h3>I am really PROUD of you. Keep it that way and Do not let anyone and anything to ruin this.</h3>
+    <h3>I am really PROUD of you. Keep it that way and Do not let anyone and anything to ruin this.</h3> -->
 </body>
 </html>

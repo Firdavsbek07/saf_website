@@ -1,0 +1,55 @@
+/* Resste some defualt styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Additional styles specific to each page */
+
+/* Home Page Styles */
+.hero {
+    background-color: #f0f0f0;
+    padding: 2rem;
+}
+
+/* Product Listing Page Styles */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+/* Product Card Styles */
+.product-details {
+    max-width: 600px;
+    margin: 0 auto;
+} 
