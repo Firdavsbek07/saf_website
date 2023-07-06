@@ -4,8 +4,8 @@ function createProductCard(product) {
     const card = document.createElement('div');
     card.classList.add('product-card');
 
-    const link = document.createElement('a');
-    link.href = `/product-details.html?id=${product.id}`;
+    // const link = document.createElement('a');
+    // link.href = `/product-details.html?id=${product.id}`;
 
     const image = document.createElement('img');
     image.src = `static/images/${product.image}`;
@@ -13,11 +13,12 @@ function createProductCard(product) {
 
     const name = document.createElement('h3');
     name.textContent = product.name;
+    // name.href = `/product-details.html?id=${product.id}`;
 
     const price = document.createElement('p');
     price.textContent = `$${product.price.toFixed(2)}`;
 
-    card.appendChild(link);
+    // card.appendChild(link);
     card.appendChild(image);
     card.appendChild(name);
     card.appendChild(price);
